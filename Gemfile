@@ -10,7 +10,7 @@ gem 'simple_form'
 gem 'protected_attributes'
 
 group :development, :test do 
-	gem 'sqlite3'	
+	gem 'sqlite3:dbname'	
 end
 #gem 'thin'
 #gem 'strong_parameters'
