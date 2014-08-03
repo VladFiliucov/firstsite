@@ -4,4 +4,10 @@ warmup:
  profile_name: "warmup"
  email: "mailul@mail.ru"
 
+batman:
+  first_name: "Bruce"
+  last_name: "Wayne"
+  email: "batman@mail.ru"
+  profile_name: "Batman"
+
 
