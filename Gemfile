@@ -5,12 +5,17 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 
+
 gem 'devise'
 gem 'simple_form'
 gem 'protected_attributes'
 
-group :development, :test do 
-	gem 'sqlite3'	
+group :production do
+  gem 'pg'
+end
+
+group :development, :test do
+  gem 'sqlite3'
 end
 #gem 'thin'
 #gem 'strong_parameters'
