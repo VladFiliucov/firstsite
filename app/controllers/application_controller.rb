@@ -7,4 +7,16 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
     devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:first_name, :last_name, :profile_name, :email, :password, :password_confirmation) }
   end
+
+    rescue_from ActionController::RoutingError do |exception|
+    flash[:error] = "There is no such route"
+    redirect_to root_url
+  end
+
 end
+
+
+
+
+
+
