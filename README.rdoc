@@ -1,28 +1,25 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Social network application by treahouse tutorial.
 
-* Ruby version
+Rails 4.1
 
-* System dependencies
+Twitter Bootstrap for design.
+Devise for authentication.
+Simple_form for better forms.
+Gravatar for avatars.
 
-* Configuration
+In test uses sqlite3 database
+In production uses postgress database
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+application is deployed to Heroku:
+http://filiucov.herokuapp.com/
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+What to do:
+
+* update to rails 4.2
+* polish
+* write more tests
+* add advanced social futures
